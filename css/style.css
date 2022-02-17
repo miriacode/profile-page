@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    color:hsl(0, 0%, 100%);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 0; 
+    padding:2vw 22%;
+}
+
+.nav{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    background-color:hsl(0, 0%, 20%);
+    font-weight: 700;
+    padding: 0.5rem 22%;
+}
+
+.nav-title{
+    padding:5px 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-links{
+    width:41vw;
+    min-width:585px;
+    height: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+li{
+    padding:12px 12px;
+    font-size: 1.15rem;
+    list-style-type: none;
+}
+
+
+.li_btn{
+    padding-top:4px;
+}
+
+.nav-links__items{
+    font-weight: 300;
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.active{
+    font-weight: 700;
+}
+
+.btn{
+    cursor:pointer;
+    width: 10ch;
+    height: 2.2rem;
+    border-radius: 0.1rem;
+    border: 3.54px solid black;
+    box-shadow: 2px 4px 2px 0px hsl(0, 0%, 0%);
+    background-color: hsl(188, 78%, 41%);
+    color:hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+}
+
+
+/* Part Main Container */
+.main-container{
+    position: relative;
+    top:0;
+    right:0;
+    width:450px;
+    height: 355px;
+    min-width: 470px;
+    margin-top: 0;
+    margin-right: 2%;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    font-weight: 700;
+    color:black;
+}
+
+.class-header{
+    width: 100%;
+    height: 110px;
+    background-color: hsl(188, 96%, 35%);
+}
+
+.class-header img{
+    position:relative;
+    top: 60px;
+    left:40px;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:0.4rem solid hsl(0, 0%, 100%);
+    outline: 0.15rem solid hsl(0, 2%, 79%);
+}
+
+.class-body{
+    width: 100%;
+    height: 245px;
+    padding:60px 30px;
+    font-size: 1.2rem;
+    border: 0.225rem solid hsl(0, 0%, 83%);
+    border-top: 0;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+h3{
+    margin-top: 8px;
+    margin-left: 7px;
+    font-size: 500;
+    display: inline-block;
+}
+
+.class-body img{
+    position: relative;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.img-map-marker{
+    height: 18px;
+    width: 14px;
+}
+
+.img-gear{
+    width: 20px;
+    height: 20px;
+    top:6px;
+}
+
+.class-body a{
+    display: inline-block;
+    margin-top: 12px;
+}
+
+/*Connection Requests*/
+.connections-requests{
+    position: relative;
+    left: 500px;
+    bottom: 355px;
+    width: 320px;
+    height: 215px;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.connections-requests__class-header{
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    color:aliceblue;
+    font-size: 1.5rem;
+    padding: 18px;
+    display: flex;
+}
+
+.connections-requests__class-header div{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    color:black;
+    padding: 2.5px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.connections-requests__class-header p{
+    font-family: 2rem;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.connections-requests__class-body{
+    padding: 20px;
+    border: 0.2rem solid hsl(0, 0%, 83%);
+    border-top: 0;
+}
+
+.user-request{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-section{
+    display: flex;
+}
+
+.user-image{
+    width: 35px;
+    height: 35px;
+}
+
+.user-name{
+    color:black;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.user-button{
+    width: 35px;
+    height: 35px;
+}
+
+.my-connections{
+    position:relative;
+    bottom: 522px;
+    left: 500px;
+    width:320px;
+    height: 333px;
+    color:blue;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+/* Education */
+.education{
+    position:relative;
+    bottom: 170px;
+    width:450px;
+    height: 185px;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    color:black;
+}
+
+
+.education__header{
+    width: 100%;
+    height: 25%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.education__header p{
+    padding: 12px 18px;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.education__body{
+    padding: 8px 20px;
+    border: 0.225rem solid hsl(0, 0%, 83%);
+    border-top:0;
+}
+
+.education__place, .education__time, .education__description{
+    padding-top: 8px;
+
+}
+
+.education__place{
+    font-weight: 700;
+}
+
+.education__time{
+    color: hsl(0, 0%, 53%);
+}
+
+.education__time{
+    font-weight: 700;
+}
+
+.education__place{
+    font-size: 1.5rem;
+}
+
+/* My connections */
+.my-connections__class-header{
+    width: 100%;
+    height: 22%;
+    background-color: black;
+    color:aliceblue;
+    font-size: 1.5rem;
+    
+    padding: 18px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.my-connections__class-header div{
+    width:60px;
+    height: 32px;
+    background-color: hsl(0, 0%, 83%);
+    text-align: center;
+    border-radius: 58%;
+    color:black;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.my-connections__class-header p{
+    padding-left: 20px;
+}
+
+.my-connections__class-body{
+    border: 0.225rem solid hsl(0, 0%, 83%);
+    border-top:0;
+}
+.user-list{
+    width: 100%;
+    padding: 10px 0 8px 20px;
+}
+.view-more-section{
+    width: 100%;
+    padding: 8px;
+    border-top: 0.225rem solid hsl(0, 0%, 83%);
+}
+
+.view-more{
+    font-size: 1.3rem;
+    padding: 10px 0 0 15px;
+}
